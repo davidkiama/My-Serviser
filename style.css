@@ -1,0 +1,229 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 20px;
+}
+
+.logo__name {
+  color: blue;
+}
+.logo__name span {
+  color: black;
+}
+
+.header__nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav__item {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.btn {
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+}
+
+.btn-pri {
+  background-color: blue;
+  border: none;
+}
+
+.btn-welcome {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid white;
+}
+.header__main {
+  background-image: url("img/bg.png");
+  height: 450px;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.welcome-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+.welcome-text {
+  font-size: 18px;
+}
+
+.welcome-btns {
+  display: flex;
+}
+
+.welcome-btns * {
+  margin: 20px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 50px 50px;
+}
+
+.about-title {
+  font-size: 35px;
+  text-transform: capitalize;
+}
+
+.about-sub-title {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.about-text {
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+.about-img {
+  height: 500px;
+}
+
+.CTA {
+  background-image: url("img/Rectangle\ 11.png");
+  color: #fff;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  height: 550px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.CTA * {
+  margin: 50px 0;
+}
+
+.CTA-title {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.CTA-sub-title {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.section-services {
+  padding: 40px;
+}
+
+.section-heading {
+  font-size: 35px;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 40px;
+}
+
+.service {
+  width: 350px;
+  padding-bottom: 20px;
+  box-shadow: 0px 3px 9px 2px rgba(0, 0, 0, 0.2);
+}
+
+.service-img {
+  height: 200px;
+}
+
+.service-main {
+  padding: 0 18px;
+}
+
+.service-text {
+  font-size: 18px;
+}
+
+.contact {
+  background-color: blue;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  padding: 30px;
+}
+
+.contact-add {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-heading {
+  font-size: 40px;
+}
+.contact-text {
+  font-size: 18px;
+}
+
+.heading-4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.contact-form {
+  background-color: white;
+
+  padding: 20px 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+label {
+  margin-bottom: 15px;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+input,
+textarea {
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+
+.btn-form {
+  align-self: center;
+  text-transform: capitalize;
+}
+.copyright {
+  text-align: center;
+  background-color: darkblue;
+  padding: 40px;
+  color: white;
+  font-size: 20px;
+}
